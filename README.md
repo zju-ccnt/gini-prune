@@ -27,7 +27,7 @@ Gini-Prune consists of four main steps:
 4. Select and remove a low-Gini contiguous layer block.
 
 <p align="center">
-  <img src="docs/figures/gini_prune_workflow.png" width="70%">
+  <img src="docs/figures/gini_prune_workflow.png" width="50%">
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ Gini-Prune consists of four main steps:
 The following figure provides an intuitive comparison between Gini-Prune and representative pruning baselines.
 
 <p align="center">
-  <img src="docs/figures/pruning_methods.png" width="55%">
+  <img src="docs/figures/pruning_methods.png" width="50%">
 </p>
 
 <p align="center">
@@ -51,7 +51,7 @@ For each Transformer layer, Gini-Prune constructs a covariance matrix from calib
 Layers with lower spectral-Gini scores are treated as weakly transformative candidates. Gini-Prune searches for a low-Gini contiguous block and removes it to obtain a shallower model.
 
 <p align="center">
-  <img src="docs/figures/gini_score_profiles.png" width="65%">
+  <img src="docs/figures/gini_score_profiles.png" width="50%">
 </p>
 
 <p align="center">
@@ -63,7 +63,7 @@ Layers with lower spectral-Gini scores are treated as weakly transformative cand
 Gini-Prune can optionally apply a foldable low-rank linear bridge after pruning. The bridge is learned between the input and output hidden states of the removed block and is folded into the following attention projection matrices.
 
 <p align="center">
-  <img src="docs/figures/calibration_workflow.png" width="70%">
+  <img src="docs/figures/calibration_workflow.png" width="50%">
 </p>
 
 <p align="center">
@@ -75,7 +75,7 @@ Gini-Prune can optionally apply a foldable low-rank linear bridge after pruning.
 Gini-Prune is evaluated on multiple model families, model sizes, and pruning ratios, including LLaMA2-7B, Mistral-7B, Qwen3-4B, and Qwen3-8B. The evaluation is conducted with a unified LM-eval benchmark suite.
 
 <p align="center">
-  <img src="docs/figures/pruning_time_comparison.png" width="72%">
+  <img src="docs/figures/pruning_time_comparison.png" width="50%">
 </p>
 
 <p align="center">
@@ -87,7 +87,7 @@ Gini-Prune is evaluated on multiple model families, model sizes, and pruning rat
 The following diagnostic figures are provided for additional analysis.
 
 <p align="center">
-  <img src="docs/figures/cosine_similarity_profiles.png" width="65%">
+  <img src="docs/figures/cosine_similarity_profiles.png" width="50%">
 </p>
 
 <p align="center">
@@ -95,7 +95,7 @@ The following diagnostic figures are provided for additional analysis.
 </p>
 
 <p align="center">
-  <img src="docs/figures/calibration_data_overview.png" width="70%">
+  <img src="docs/figures/calibration_data_overview.png" width="50%">
 </p>
 
 <p align="center">
