@@ -37,7 +37,7 @@ Gini-Prune consists of four main steps:
 The following figure provides an intuitive comparison between Gini-Prune and representative pruning baselines.
 
 <p align="center">
-  <img src="docs/figures/pruning_methods.png" width="75%">
+  <img src="docs/figures/pruning_methods.png" width="55%">
 </p>
 
 <p align="center">
