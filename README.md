@@ -1,5 +1,3 @@
-下面是一版可以直接粘贴到 GitHub 根目录 `README.md` 的内容。图片路径按你现在的 `docs/figures/*.png` 来写，代码路径按 `code/` 来写。
-
 ````markdown
 # Gini-Prune: Fast Post-Training Layer Pruning for Large Language Models via Hidden-State Spectral Inequality
 
