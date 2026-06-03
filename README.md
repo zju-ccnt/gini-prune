@@ -27,7 +27,7 @@ Gini-Prune consists of four main steps:
 4. Select and remove a low-Gini contiguous layer block.
 
 <p align="center">
-  <img src="docs/figures/gini_prune_workflow.png" width="50%">
+  <img src="docs/figures/gini_prune_workflow.png" width="70%">
 </p>
 
 <p align="center">
