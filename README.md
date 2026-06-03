@@ -1,10 +1,10 @@
-````markdown
 # Gini-Prune: Fast Post-Training Layer Pruning for Large Language Models via Hidden-State Spectral Inequality
 
 This repository provides the anonymous implementation for **Gini-Prune**, a fast post-training layer pruning method for large language models based on **hidden-state spectral inequality**.
 
 Gini-Prune uses the **Gini coefficient** of layer-wise hidden-state covariance spectra to identify weakly transformative Transformer layers. It performs low-Gini contiguous block pruning to reduce model depth and improve pruning-search efficiency.
 
+This repository is anonymized for peer review.
 
 ## Overview
 
@@ -127,7 +127,7 @@ The following diagnostic figures are provided for additional analysis.
         ├── cosine_similarity_profiles.png
         ├── gini_score_profiles.png
         └── gini_prune_workflow.png
-````
+```
 
 ## Installation
 
@@ -211,6 +211,3 @@ Citation information will be added after the review process.
 ## License
 
 The license will be added after the review process.
-
-```
-```
